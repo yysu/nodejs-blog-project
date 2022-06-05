@@ -1,6 +1,6 @@
 PORT=3000
 
-# Get with query string
+# Get, /api/blog/list
 curl http://localhost:${PORT}/api/blog/list?author=su&keyword=marvel
 
 # Post 
